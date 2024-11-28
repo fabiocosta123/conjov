@@ -2,17 +2,12 @@
 
 *{
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    background-color: black;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    background-color: black;
 }
-
-body{
-    background-color: black;
-}
-
 
 /* Menu de navegação */
 
@@ -21,24 +16,18 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
   
 
 }
 
 nav {
     width: 60%;
-    background-color: black;
-  
-    
 }
 
 ul{
     display: flex;
     justify-content: space-between;
     width: 100%;  
-    background-color: black;
-  
    
 }
 
@@ -50,8 +39,6 @@ li{
     margin-top: 50px;
     cursor: pointer;
     transition: .5s;
-    background-color: black;
-  
 }
 
 li:hover{
@@ -60,8 +47,6 @@ li:hover{
 }
 
 a{
-    background-color: black;  
-    color: orangered;
     text-decoration: none;        
     transition: opacity 500ms linear; /* Adiciona uma transição suave */
 }
@@ -73,12 +58,11 @@ a:hover{
 
 
 .logo{
-    width: 100px;
+    width: 200px;
     height: auto; 
     margin-top: 20px;      
    
 }
-
 h3{
     color: aliceblue;
     font-family: "Goldman", sans-serif;
@@ -86,33 +70,6 @@ h3{
     text-align: center;
     margin-top: 15px;
 }
-
-/*video*/
-
-.trailer-container{
-    width: 100%;
-    
-    /* display: flex;
-    justify-content: center; */
-    
-}
-
-.trailer-content{
-    width: 100%;
-    
-    /* display: flex;
-    align-items: center;
-    justify-content: center;  */
-}
-
-
-
-
-.trailer{
-    width: 100%;   
-    height: 350px;
-}
-
 
 /*Card*/
 
@@ -127,7 +84,7 @@ h3{
 .card-actor{
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     row-gap: 20px;
     column-gap: 40px;
     
@@ -188,58 +145,6 @@ h3{
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("https://th.bing.com/th?id=OSK.gQW5v4kFXd33bBWP2aKWLZUDoTLAWunMWekTdy_LWSs&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.3&pid=SANGAM");
-}
-
-.figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    
-}
-
-
-
-.figure-img{
-    width: 100%;
-    height: 300px;
-}
-
-.description{
-    color: #fff;
-    margin-left: 5%;
-}
-
-.btn {
-    width: 200px;
-    height: 50px;
-    background-color: #d21617;
-    color: #fff;
-    padding: 14px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: opacity 500ms linear;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    margin-bottom: 40px;
-    margin-left: 5%;
-    
-    
-}
-
-.btn:hover{
-    background-color: #ffe3cf;
-    color: black;
-    opacity: .5s;
-
-}
-
-.btn-link{
-    background-color: red;
 }
 
 /* footer */
